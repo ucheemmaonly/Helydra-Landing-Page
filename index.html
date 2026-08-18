@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Helydra Healthcare</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-gray-100">
+    <div class="max-w-7xl mx-auto p-5">
+      <nav
+        class="bg-white rounded-full shadow-md px-8 py-4 flex items-center justify-between"
+      >
+        <div class="flex items-center gap-2">
+          
+          <h1 class="text-2xl font-bold">Helydra</h1>
+        </div>
+
+        <ul class="hidden md:flex gap-10">
+          <li class="border-b-2 border-blue-600 pb-1">
+            <a href="#">Home</a>
+          </li>
+
+          <li><a href="#">Services</a></li>
+
+          <li><a href="#">Doctors</a></li>
+
+          <li><a href="#">About</a></li>
+        </ul>
+        <button
+          type="button"
+          class="inline-flex items-center justify-center p-2 rounded-full bg-white shadow-md text-black text-3xl"
+          aria-label="Menu"
+        >
+          
+        </button>
+
+        <div class="flex items-center gap-4">
+          <button class="text-xl">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-bell-icon lucide-bell"
+            >
+              <path d="M10.268 21a2 2 0 0 0 3.464 0" />
+              <path
+                d="M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326"
+              />
+            </svg>
+          </button>
+
+          <img src="https://i.pravatar.cc/40" class="w-10 h-10 rounded-full" />
+        </div>
+      </nav>
+    </div>
+    <section class="max-w-7xl mx-auto mt-8 px-5">
+      <div
+        class="bg-gradient-to-r from-blue-100 to-orange-100 rounded-[40px] p-10 flex flex-col lg:flex-row items-center justify-between gap-10 relative overflow-hidden"
+      >
+        <div class="lg:w-1/2">
+          <p class="text-blue-600 font-semibold mb-3">Healthcare Made Simple</p>
+
+          <h1 class="text-5xl font-bold leading-tight">
+            Your Health,
+            <br />
+            Our Priority
+          </h1>
+
+          <p class="text-gray-600 mt-6">
+            Connect with trusted doctors,book appointments,
+            and get the care you need - anytime and anywhere
+          </p>
+
+          <button
+            class="mt-8 bg-blue-600 text-white px-8 py-4 rounded-full hover:bg-blue-700 transition"
+          >
+            Book Appointment
+          </button>
+
+          <div
+            class="bg-white/80 backdrop-blur-md rounded-3xl p-6 mt-10 flex justify-between"
+          >
+            <div class="text-center flex-1">
+              <h2 class="text-3xl font-bold">24/7</h2>
+              <p class="text-gray-500 text-sm">Support</p>
+            </div>
+
+            <div class="border-l border-gray-300"></div>
+
+            <div class="text-center flex-1">
+              <h2 class="text-3xl font-bold">4.9</h2>
+              <p class="text-gray-500 text-sm">Rating</p>
+            </div>
+
+            <div class="border-l border-gray-300"></div>
+
+            <div class="text-center flex-1">
+              <h2 class="text-3xl font-bold">150+</h2>
+              <p class="text-gray-500 text-sm">Doctors</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:w-1/2 flex justify-center relative rounded-3xl">
+          <img
+            src="https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?auto=format&fit=crop&w=900&q=80"
+            alt="Doctor"
+            class="w-[450px]"
+          />
+
+          <div
+            class="absolute bottom-10 left-0 bg-white rounded-3xl shadow-lg p-4"
+          >
+            <p class="font-semibold">Get Our App</p>
+
+            <div
+              class="w-24 h-24 bg-gray-200 mt-3 flex items-center justify-center rounded-xl"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
